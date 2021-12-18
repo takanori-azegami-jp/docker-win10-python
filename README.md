@@ -20,6 +20,7 @@ https://github.com/docker/compose/releases
 
 
 ## コンテナ起動
+Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
 ~~~powershell
 PS C:\>  docker-compose up -d --build
 ~~~
