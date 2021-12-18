@@ -16,5 +16,3 @@ PS C:\> Invoke-WebRequest "https://github.com/docker/compose/releases/download/`
 
 バージョンは下記からお好きなバージョンを選んでセットする<br>
 https://github.com/docker/compose/releases
-
- 
