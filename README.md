@@ -2,7 +2,7 @@
 Windows10で簡単にパイソンを実行したい時に
 
 ## 環境構築
-PowerShellの管理者で実行する
+PowerShellの管理者で実行
 
 1. wingetでDockerDesktopをインストール
 ~~~powershell
@@ -14,7 +14,7 @@ PS C:\> winget install Docker.Desktop
 PS C:\> Invoke-WebRequest "https://github.com/docker/compose/releases/download/【バージョン】/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\docker\docker-compose.exe
 ~~~
 
-【バージョン】は下記からお好きなバージョン（ex：v2.2.1）を選んでセットする<br>
+【バージョン】は下記からお好きなバージョン（ex：v2.2.1）を選んでセット<br>
 https://github.com/docker/compose/releases
 
 ## 参考
