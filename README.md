@@ -11,10 +11,11 @@ PS C:\> winget install Docker.Desktop
 
 2. DockerComposeはwingetにないので直接インストール
 ~~~
-PS C:\> Invoke-WebRequest "https://github.com/docker/compose/releases/download/<font color="Red">バージョン</font>/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\docker\docker-compose.exe
+PS C:\> Invoke-WebRequest "https://github.com/docker/compose/releases/download/ <font color="Red"> バージョン </font> /docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\docker\docker-compose.exe
 ~~~
 
 バージョンは下記からお好きなバージョンを選んでセットする
+
 https://github.com/docker/compose/releases
 
  
