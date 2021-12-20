@@ -34,9 +34,9 @@ PS C:\>  docker-compose up -d --build
 
 ## コンテナ接続
 ~~~powershell
-#aaaa
-PS C:\>  docker-compose exec コンテナID bash
-#aaa
+#コンテナID取得
+PS C:\>  docker ps 
+#コンテナに接続
 PS C:\>  docker-compose exec コンテナID bash
 ~~~
 
