@@ -7,7 +7,7 @@ PowerShellの管理者で実行
 
 1. wingetでDockerDesktopをインストール
 ~~~powershell
-PS C:\> winget install Docker.Desktop
+PS C:\> winget install -e --id Docker.DockerDesktop
 ~~~
 
 2. DockerComposeはwingetにないので直接インストール
