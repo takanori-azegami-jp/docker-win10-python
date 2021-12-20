@@ -26,6 +26,31 @@ PS C:\>  docker-compose up -d --build
 ~~~
 
 
+## コンテナ起動
+Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
+~~~powershell
+PS C:\>  docker-compose up -d --build
+~~~
+
+## コンテナ接続
+~~~powershell
+#aaaa
+PS C:\>  docker-compose exec コンテナID bash
+#aaa
+PS C:\>  docker-compose exec コンテナID bash
+~~~
+
+## コンテナ削除
+不要になったコンテナを削除
+~~~powershell
+PS C:\>  docker-compose exec コンテナID bash
+~~~
+
+
+ docker-compose exec python3 bash
+
+
+
 ## 参考
 [dockerで簡易にpython3の環境を作ってみる](https://qiita.com/reflet/items/4b3f91661a54ec70a7dc)
 
