@@ -26,13 +26,6 @@ Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
 PS C:\>  docker-compose up -d --build
 ~~~
 
-
-## コンテナ起動
-Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
-~~~powershell
-PS C:\>  docker-compose up -d --build
-~~~
-
 ## コンテナでPython実行
 ~~~console
 $ /root/opt/HelloWorld.py
