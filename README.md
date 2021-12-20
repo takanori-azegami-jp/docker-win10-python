@@ -32,6 +32,13 @@ Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
 PS C:\>  docker-compose up -d --build
 ~~~
 
+## Python実行
+~~~bash
+# hellowrd.py
+~~~
+
+
+
 ## コンテナ接続
 ~~~powershell
 #コンテナID取得
