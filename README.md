@@ -32,12 +32,10 @@ Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
 PS C:\>  docker-compose up -d --build
 ~~~
 
-## Python実行
-~~~bash
-# hellowrd.py
+## コンテナでPython実行
+~~~console
+$ /root/opt/HelloWorld.py
 ~~~
-
-
 
 ## コンテナ接続
 ~~~powershell
