@@ -32,7 +32,7 @@ PS C:\>  docker-compose up -d --build
 #コンテナID取得
 PS C:\>  docker ps 
 #コンテナに接続
-PS C:\>  docker exec コンテナID bash
+PS C:\>  docker exec -it コンテナID bash
 ~~~
 
 ## コンテナでPython実行
@@ -45,8 +45,10 @@ $ python /root/opt/HelloWorld.py
 不要になったコンテナとイメージを削除
 ~~~powershell
 #コンテナ削除
+PS C:\> $ docker ps
 PS C:\> $ docker rm コンテナID
 #イメージを削除
+PS C:\> $ docker images
 PS C:\> $ docker rmi イメージID
 ~~~
 
