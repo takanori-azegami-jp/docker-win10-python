@@ -26,10 +26,6 @@ Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
 PS C:\>  docker-compose up -d --build
 ~~~
 
-## コンテナでPython実行
-~~~console
-$ /root/opt/HelloWorld.py
-~~~
 
 ## コンテナ接続
 ~~~powershell
@@ -39,16 +35,17 @@ PS C:\>  docker ps
 PS C:\>  docker-compose exec コンテナID bash
 ~~~
 
+## コンテナでPython実行
+~~~console
+$ python /root/opt/HelloWorld.py
+~~~
+
+
 ## コンテナ削除
 不要になったコンテナを削除
 ~~~powershell
 PS C:\>  docker-compose exec コンテナID bash
 ~~~
-
-
- docker-compose exec python3 bash
-
-
 
 ## 参考
 [dockerで簡易にpython3の環境を作ってみる](https://qiita.com/reflet/items/4b3f91661a54ec70a7dc)
