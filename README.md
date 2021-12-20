@@ -5,7 +5,7 @@ Windows10で簡単にパイソンを実行したい時に
 ## 環境構築
 PowerShellの管理者で実行
 
-1. wingetでDockerDesktopをインストール
+1. wingetでDockerDesktopをインストール<br>
 PowerShellでエラーになる場合はコマンドプロンプトから実行
 ~~~powershell
 PS C:\> winget install  Docker.DockerDesktop
