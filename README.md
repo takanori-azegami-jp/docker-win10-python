@@ -32,7 +32,7 @@ PS C:\>  docker-compose up -d --build
 #コンテナID取得
 PS C:\>  docker ps 
 #コンテナに接続
-PS C:\>  docker-compose exec コンテナID bash
+PS C:\>  docker exec コンテナID bash
 ~~~
 
 ## コンテナでPython実行
@@ -41,12 +41,15 @@ $ python /root/opt/HelloWorld.py
 ~~~
 
 
-## コンテナ削除
-不要になったコンテナを削除
+## コンテナとイメージの削除
+不要になったコンテナとイメージを削除
 ~~~powershell
-PS C:\>  docker-compose exec コンテナID bash
+#コンテナ削除
+PS C:\> $ docker rm コンテナID
+#イメージを削除
+PS C:\> $ docker rmi イメージID
 ~~~
+
 
 ## 参考
 [dockerで簡易にpython3の環境を作ってみる](https://qiita.com/reflet/items/4b3f91661a54ec70a7dc)
-
