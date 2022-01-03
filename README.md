@@ -11,7 +11,7 @@ PowerShellでエラーになる場合はコマンドプロンプトから実行
 PS C:\> winget install  Docker.DockerDesktop
 ~~~
 
-2. DockerComposeはwingetにないので直接インストール
+2. Docker-Composeはwingetにないので直接インストール
 ~~~powershell
 PS C:\> Invoke-WebRequest "https://github.com/docker/compose/releases/download/【バージョン】/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\docker\docker-compose.exe
 ~~~
