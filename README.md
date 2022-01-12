@@ -1,5 +1,5 @@
 # DockerBuild-Win10-Python
-Windows10で簡単にPython実行環境を構築
+Python実行環境を構築（Windows10）
 
 
 ## 環境構築
