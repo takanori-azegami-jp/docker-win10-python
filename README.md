@@ -36,8 +36,6 @@ failed to solve with frontend dockerfile.v0: failed to create LLB definition: fa
 ERROR: Service 'python3' failed to build : Build failed
 ~~~
 
-下記リンク記載の[.dockerディレクトリのconfig.json修正]で問題が解消しました<br>
-[WSL2でDocker buildをすると止まる問題](https://qiita.com/rasuk/items/a36b29b8c79d02fc551a)
 
 
 ## コンテナ接続
