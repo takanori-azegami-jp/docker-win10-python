@@ -26,6 +26,18 @@ Dockerfile、docker-compose.ymlを配置したフォルダに移動して実行
 PS C:\>  docker-compose up -d --build
 ~~~
 
+## エラーがでた場合
+下記みたいなエラーがでた場合
+~~~powershell
+------
+ > [internal] load metadata for docker.io/library/python:3:
+------
+failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to authorize: rpc error: code = Unknown desc = failed to fetch oauth token: unexpected status: 401 Unauthorized
+ERROR: Service 'python3' failed to build : Build failed
+~~~
+
+ひとまず、[Docker Desktop]のUpdate＆リスタートで問題が解消した
+
 
 ## コンテナ接続
 ~~~powershell
