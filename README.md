@@ -27,7 +27,8 @@ PS C:\>  docker-compose up -d --build
 ~~~
 
 ## エラーがでた場合
-下記みたいなエラーがでた場合
+下記エラーがでた場合、下記リンクの[2. buildkit を false に設定]をDocker Engine 設定画面まるごと変更したら動作しました
+[Docker Desktop3.0.0でビルド出来ない?!](https://zenn.dev/hiszuk/articles/cb30071df19a1b4f8365)
 ~~~powershell
 ------
  > [internal] load metadata for docker.io/library/python:3:
@@ -35,8 +36,6 @@ PS C:\>  docker-compose up -d --build
 failed to solve with frontend dockerfile.v0: failed to create LLB definition: failed to authorize: rpc error: code = Unknown desc = failed to fetch oauth token: unexpected status: 401 Unauthorized
 ERROR: Service 'python3' failed to build : Build failed
 ~~~
-
-※現在解消方法調査中
 
 
 ## コンテナ接続
