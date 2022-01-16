@@ -27,7 +27,7 @@ PS C:\>  docker-compose up -d --build
 ~~~
 
 ## エラーがでた場合
-下記エラーがでた場合、下記リンクの[2. buildkit を false に設定]をDocker Engine 設定画面まるごと変更したら動作しました
+下記エラーがでた場合、下記リンクの[2. buildkit を false に設定]をDocker Engine 設定画面まるごと変更でエラー解消<br>
 [Docker Desktop3.0.0でビルド出来ない?!](https://zenn.dev/hiszuk/articles/cb30071df19a1b4f8365)
 ~~~powershell
 ------
