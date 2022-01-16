@@ -36,7 +36,8 @@ failed to solve with frontend dockerfile.v0: failed to create LLB definition: fa
 ERROR: Service 'python3' failed to build : Build failed
 ~~~
 
-ひとまず、[Docker Desktop]のUpdate＆リスタートで問題が解消した
+下記リンクの.dockerのディレクトリのconfig.jsonを修正したら問題が解消
+[WSL2でDocker buildをすると止まる問題("docker-credential-desktop.exe": executable file not found in $PATH, out: ``)](https://qiita.com/rasuk/items/a36b29b8c79d02fc551a)
 
 
 ## コンテナ接続
