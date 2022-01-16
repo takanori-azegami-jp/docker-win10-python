@@ -36,6 +36,7 @@ failed to solve with frontend dockerfile.v0: failed to create LLB definition: fa
 ERROR: Service 'python3' failed to build : Build failed
 ~~~
 
+※現在解消方法調査中
 
 
 ## コンテナ接続
